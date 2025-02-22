@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73563349626",
+    "project_id": "mauli-eac26",
+    "storage_bucket": "mauli-eac26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73563349626:android:2a5db1c2287cfff15711c3",
+        "android_client_info": {
+          "package_name": "com.example.mauli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73563349626-er0m1unr32qgi8h66tv2g6r9dtk01ca1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaS_JP4eGrlGvtgldyS5r0T517ZA0lO3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73563349626-er0m1unr32qgi8h66tv2g6r9dtk01ca1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

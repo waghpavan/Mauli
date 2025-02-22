@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="जय हरी विठ्ठल !!!"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            tools:context=".AboutUs">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:text="पंढरपूर हा भारताच्या महाराष्ट्र राज्यातील सोलापूर जिल्ह्याचा एक तालुका आहे. पंढरपूर हे गाव भीमा नदीच्या (चंद्रभागा) काठावर वसले आहे. पंढरपुराला पंढरी असेही म्हणतात. पंढरपूरची लोकसंख्या ५३,६३८ (१९७१) इतकी आहे. पंढरपूर हे सोलापूरच्या पश्चिमेस ७१ किमी. वर, भीमा नदीच्या उजव्या तीरावर, समुद्रसपाटीपासून ४५० मीटर उंचीवर आहे. आहे. हे मिरज-कुर्डुवाडी रुंदमापी लोहमार्गावरील स्थानक असून येथून महाराष्ट्रात सगळीकडे जाणारी बस वाहतुकीची सोय आहे. काही मध्ययुगीन कानडी शिलालेखांत पंढरपूर या क्षेत्राचे नाव नाव 'पंडरगे' असे आहे.[१] मूळ नाव पुंडरीकपूर असे असावे किंवा पांढरी (गावाची वेस) या शब्दाशीही प्रस्तुत क्षेत्राच्या नावाचा संबंध असण्याची शक्यता आहे." />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="364dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                app:srcCompat="@drawable/mandir"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="पंढरपुरातील विठ्ठल मंदिरामुळे हे वारकऱ्यांचे तीर्थक्षेत्र म्हणून प्रख्यात आहे. या मंदिराला आठ प्रवेशद्वारे आहेत. त्यातील पूर्वेकडील प्रवेशद्वाराला नामदेवांचे नाव देण्यात आले आहे. दरवर्षी आषाढी एकादशीच्या सुमारास अनेक भाविक येथे वारी करण्यासाठी व विठ्ठल-रखुमाईचे दर्शन घेण्यासाठी पायी चालत येतात. क्षेत्रमाहात्म्यामुळे पंढरपुराला दक्षिण काशी व तसेच विठ्ठलाला महाराष्ट्राचेकुलदैवत म्हणतात. [२].हे विठ्ठलमंदिर अवघ्या महाराष्ट्राचे एक चिरंतन स्फूर्तिस्थान आहे. गोरगरिबांचा देव म्हणून श्री विठ्ठलाची ओळख आहे.पंढरपूरच्या उत्तर दिशेला कैकाडी महाराज यांचा मठ आहे तिथे गुंफेत सर्व साधु संतांच्या मूर्ती आहेत."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="प्राचीनत्व व नावे : "
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="15dp"
+                android:text="पंढरपूर हे क्षेत्र हस्तलिखितांत पौंड्रीकपूर- पुंडरिकपूर- पंढरपूर- पंढरी- पंडरिगे- पंडरगे अशा विविध नावांनी ओळखले जाते.पंढरपुरातील विठ्ठल मंदिरामुळे हे वारकऱ्यांचे तीर्थक्षेत्र म्हणून प्रख्यात आहे. या मंदिराला आठ प्रवेशद्वारे आहेत. त्यातील पूर्वेकडील प्रवेशद्वाराला नामदेवांचे नाव देण्यात आले आहे."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="इतिहास : "
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="15dp"
+                android:text="पुंडलिकाच्या काळात विटेवर पूर्वमुखी पांडुरंग आणि समोर भीमा नदीच्या पात्रात पश्चिमाभिमुखी हरिमूर्ती होती असे मानले जाते. हे मंदिर आता वाहून गेले आहे. पण त्याचा मोठा चौथरा शिल्लक आहे, त्याला चौफाळा म्हणतात. हरि मंदिर भीमेच्या पात्रात असल्याचा उल्लेख कै. काशिनाथ उपाध्याय उपाख्य बाबा पाध्ये यांनी केला आहे. म्हणूनच वारकरी संप्रदायाच्या घोषवाक्यात ‘पुंडलिक वरदा हरि विठ्ठल’ असा तीर्थ व क्षेत्र देवतांचा उल्लेख असतो. (हरि ही तीर्थदेवता आणि विठ्ठल ही क्षेत्रदेवता!) दीक्षा मंत्रातही ‘रामकृष्णहरि’ असा तीन देवतांचा उल्लेख येतो. डॉ. शं.गो. तुळपुळे यांनी उजेडात आणलेल्या शिलालेखाच्या आधारे असे अनुमान करता येते. शके ११११ मधील शिलालेखाच्या आधारे असे अनुमान करता येते की शके ११११ मध्ये पंढरपुरातले विठ्ठलाचे देऊळ निर्माण झाले. 'स्थापनेच्या वेळी मंदिर अगदी लहान होते.हा 'लानमडू' हळूहळू वाढत गेला. शके ११५९ मध्ये त्यास होयसळ यादवांपैकी वीर सोमेश्वर याने कर्नाटकातील एक गाव दान दिला. शके ११९५ मध्ये श्रीरामचंद्र देवराव यादव व त्याचा करणाधिप हेमाद्री पंडित याने पुढाकार घेऊन या देवळाची वाढ केली.आणि देवस्थानची त्याच्या कीर्तीस साजेल अशी व्यवस्था लावून दिली. देवळाचा विस्तार शके १९२५ च्या सुमारास पुष्कळच झाला.[३]विठ्ठलाला द्वैती भक्तांनी सोवळ्याच्या पालखीतून कर्नाटकात नेले. पण अद्वैती वारकरी मंडळींसाठी एकनाथांचे आजोबा भानुदास यांनी तो देव परत पंढरपुरात आणला, अशीही कथा सांगितली जाते. मराठी भक्तांइतकेच कानडी भक्त, तसेच इतर जातिधर्माचे लोकही विठ्ठलाला भेटायला वर्षभर येत असतात. कर्नाटकाचे पक्वान्न ‘पुरणपोळी’च विठ्ठलाच्या नैवेद्याला त्याला आवडते म्हणून दाखवली जाते. पंढरपुरात वारी ही सर्वात लोकप्रिय आहे."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="चंद्रभागा :  "
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="15dp"
+                android:text="भीमाशंकरावर उगम पावलेली भीमा (भिवरा) इंद्रायणी- भामा- नीरा यांना पोटात घेत पंढरपुराजवळ येते. रेल्वे पूल ते विष्णूपद या पाच किलोमीटर अंतरामध्ये ती तीन वेळा अर्धवर्तुळाकार होते. म्हणून लोकांनी तिला चंद्रभागा नाव दिले. स्कंद पुराणातील माहात्मेय ‘चंद्रभागा’ नावाचे सरोवर महाद्वारात मल्लिकार्जुन मंदिराजवळ (जे मंदिर विठ्ठल मंदिराचे आधीचे आहे.) होते, असे सांगते. तर, संत जनाबाई ‘भीमा आणि चंद्रभागा तुझ्या चरणीच्या गंगा’ असा दोन्ही नद्यांचा उल्लेख करतात. पंढरपूर सोडले की चंद्रभागा पुन्हा नाव बदलते. नद्यांचा अभ्यास करणाऱ्यांना हे नावाचे कोडे उलगडलेले नाही. इ.स. १८५० सालच्या सुमारास चौफाळा भागात मुरलीधराचे मंदिर बांधताना पाया खणताना फार मोठा वाळूचा पट्टा तेथे सापडला होता. म्हणजे विठ्ठलाच्या पूर्वेस व पश्चिमेस दोन्हीकडे जलप्रवाह होते असे दिसते. काळाच्या ओघात आता काही नाही. पंढरपुराच्या पंचक्रोशीतील जवळील नद्या म्हणजे दुर्गादेवीजवळची धारिणी, भुवनेश्वरीजवळची पुष्पावती (जी मूळची यमुना कृष्णाबरोबर पंढरपुरात आली), संध्यावळीजवळच्या शिशुमाला-भीमासंगम, उत्तरेकडे पंचगंगा क्षेत्रामध्ये तुंगा, सती, सुना, भृंगारी आणि पंचगंगा, यांचा भीमेशी संगम होतो. त्यामुळे संत मंडळी अभंगातून बऱ्याच वेळा भीमा भिवराकाठी देव असल्याचा उल्लेख करतात. पर्यावरणीय ऱ्हास भीमा नदीमध्ये प्रचंड प्रदूषण झाले आहे. पुणे, पिंपरी चिंचवड पासून ते पंढरपूरपर्यंत अनेक साखर कारखाने आपले दूषित पाणी या नदीच्या पात्रामध्ये सोडतात. या नदीचे प्रदूषण रोखण्यासाठी महाराष्ट्र राज्य सरकारने 'नमामि चंद्रभागा अभियान' हाती घेतले आहे. यामध्ये भीमाशंकरपासून ते रायचूरपर्यत या नदीचे प्रदूषण रोखण्यासाठी उपाययोजना करण्यात येणार आहेत. त्याच बरोबर चंद्रभागा वाळवंटात घाट बांधणी, स्वछता, नदीकाठी वृक्ष लागवड अश्या गोष्टींवर भर देण्यात येणार आहे. हा नदीचे रूप पालटवण्याचा प्रयत्न आहे, अद्याप त्यावर ठोस काम होणे अपेक्षित आहे. नमामि चंद्रभागा ही योजना सरकारद्वारे २०१५ साली सुरू करण्यात आली पण या योजनेचे काम खूप मंद गतीने सुरू आहे आहे. पण या योजनेमुळे कदाचित चंद्रभागा नदीची झालेली दुरवस्था नीट होईल."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="तीर्थक्षेत्र : "
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="15dp"
+                android:text="पंढरपूरमध्ये वर्षातून चार एकादश्यांना चार यात्रा भरतात - चैत्री, आषाढी, माघी व कार्तिकी. त्यातील आषाढी एकादशीला भरणाऱ्या यात्रेत १०-१५ लाख भाविक सहभागी होतात. पंढरपुराला मराठी संस्कृती घडविणाऱ्या थोर भागवतधर्मीय संतांनी नावारूपास आणलेले महाराष्ट्राचे आद्य व पवित्र तीर्थक्षेत्र मानतात.पुंडलिकाच्या काळात विटेवर पूर्वमुखी पांडुरंग आणि समोर भीमा नदीच्या पात्रात पश्चिमाभिमुखी हरिमूर्ती होती असे मानले जाते. हे मंदिर आता वाहून गेले आहे. पण त्याचा मोठा चौथरा शिल्लक आहे, त्याला चौफाळा म्हणतात. हरि मंदिर भीमेच्या पात्रात असल्याचा उल्लेख कै. काशिनाथ उपाध्याय उपाख्य बाबा पाध्ये यांनी केला आहे. म्हणूनच वारकरी संप्रदायाच्या घोषवाक्यात ‘पुंडलिक वरदा हरि विठ्ठल’ असा तीर्थ व क्षेत्र देवतांचा उल्लेख असतो. (हरि ही तीर्थदेवता आणि विठ्ठल ही क्षेत्रदेवता!) दीक्षा मंत्रातही ‘रामकृष्णहरि’ असा तीन देवतांचा उल्लेख येतो."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="पांडुरंगाचे देउळ : "
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="15dp"
+                android:text="पंढरपूरचे देवालय व देव अत्यंत पुरातन असून अनेक वेळा मंदिराची पुनर्बांधणी झाली आहे. शालिवाहन वंशातल्या प्रतिष्ठान राजाने या देवळाचा इ.स. ८३मध्ये जीर्णोद्धार केला. ताम्रपटांवरून इ.स. ५१६ मध्ये राष्ट्र कुटांच्या काळात पंढरपूर हे चांगली लोकवस्ती असलेले ग्राम असल्याचा पुरावा मिळतो. इ.स. १२३९ च्या लेखावरून देवगिरीच्या यादवांनी या स्थळास भेट दिल्याचा दावा आहे. पादुका-प्रदक्षिणेची वहिवाट इ.स. १२९६ मध्ये चालू झाली; तर इ.स. १६५० मध्ये हैबतबाबांनी आळंदीहून निघून पंढरपूरला पोहोचणाऱ्या पालखीची प्रथा पाडली.
+
+देऊळ व मूर्ती यांवर अनेकदा मुसलमानी आक्रमणे झाली व प्रत्येक वेळी मंदिर परत बांधण्यात आले. काहींच्या मते हे स्थान मूलतः शिवाचे होते तर वैष्णव पंथीय हे विष्णूचे स्थान मानतात. जैनधर्मीय यास नेमीनाथ समजतात तर बौद्धांच्या मते हा अवलोकितेश्वर आहे. या दैवतास सूर्याचा अंशही मानतात."
+                tools:ignore="DuplicateIds" />
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="गोपाळपूर "
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="15dp"
+                android:text="पंढरपुरातील गोपाळपूर या ठिकाणी श्रीकृष्ण मंदिर आहे. या मंदिराच्या पायथ्याशी जनाबाईचे देऊळ आहे. पंढरपूरला पांडुरंगाच्या दर्शनाला आलेला प्रत्येक भाविक जनाबाईच्या देवळातील घुसळखांब घुसळल्याशिवाय जात नाही. चार प्रमुख एकादश्यांना (आषाढी, कार्तिकी, माघी आणि चैत्री) आलेले भाविक एकादशीच्या दुसऱ्या दिवशी होणारा गोपाळकाला खाण्यासाठी येथे एकत्र जमतात."
+                tools:ignore="DuplicateIds" />
+
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text=" विष्णूपद:"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="15dp"
+                android:text="या ठिकाणी सर्व लोक विष्णूच्या पावलांचे दर्शन घेतात. येथे मार्गशीर्ष महिन्यात पांडुरंगाचे वास्तव्य असते. या महिन्यात येथे भाविकांची खूप गर्दी असते. या ठिकाणी आजही श्रीकृष्णाचे व गायीच्या खुरांचे ठसे दिसतात, असे सांगितले जाते. .विष्णूपद या ठिकाणी भाविकांची खूप गर्दी असते."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="वर्णन : "
+                tools:ignore="DuplicateIds" />
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                app:srcCompat="@drawable/varn"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:layout_margin="1dp"
+                android:text="चंद्रभागा नदीकाठचे पुंडलिकाचे मंदिर\n\n"
+                tools:ignore="DuplicateIds" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="1dp"
+                android:text="चंद्रभागेच्या वाळवंटा(नदीकाठच्या छोट्याशा वाळूच्या मैदाना)पलीकडून उंच शिखरे, सपाट कौलारू छपरे, धर्मशाळा, झाडे व त्या सर्वावर उठून दिसणारी विठ्ठल, रखुमाई व पुंडलीक मंदिरांची उंच शिखरे व कलश हा सर्व देखावा फारच मनोहारी वाटतो. दगडी तटबंदीमागे हे विठ्ठलाचे देऊळ एका टेकडावर आहे. सुमारे ५२ मीटर रुंद व १०६ मीटर लांब अशी ही जागा असून सभोवार अरुंद फरसबंद रस्ते आहेत. पूर्वेकडे तीन, उत्तरेकडे तीन व दक्षिण व पश्चिमेकडे प्रत्येकी एक दार आहे. महाद्वार पूर्वेकडे असून, ज्या अकरा पायऱ्या चढून गेल्यावर ते लागते त्यांतील एका पायरीला `नामदेव पायरी' म्हणतात. कोपऱ्यात देवळीमध्ये गणपती असून वरती नगारखाना आहे. महाद्वारावर सिंह, कमानी, वेलपट्टी वगैरे पुरातन चुनेगच्ची नक्षीकाम आहे .
+\n\n\n
+मंदिराचे स्वरूप
+
+\n\n
+मंडप १८ मीटर रुंद व ३७ मीटर लांब असून बाजूस असलेल्या ओवऱ्यांत सुंदर लाकडी कोरीवकाम दिसून येते. सुमारे १० मीटर उंचीच्या दोन दीपमाळा व जवळच विष्णूवाहन गरुड व हनुमान यांची मंदिरे आहेत. पुढील सोळा-खांबीत एका लहान सभामंडपातून जाता येते. येथील दाराचे बाजूस सुरेख जय-विजय व तीन पायऱ्या असून त्यापैकी एक पितळी पत्र्याने मढवली आहे. डाव्या बाजूस खजिन्याची खोली आहे. सोळा कोरीव दगडी खांब असून भाविकांच्या आशयाचा गरुडस्तंभ चांदीच्या पत्र्याने मढविला आहे. आत प्रवेश करताना उजव्या हातास संत एकनाथ महाराजांचे पणजोबा संत भानुदास महाराजांची समाधी आहे. सभामंडपाच्या उत्तरेकडे एक ओवरी असून त्यात काशीविश्वनाथ, राम-लक्ष्मण, काळभैरव, रामेश्वर, दत्तात्रेय आणि नरसोबा यांच्या देवळ्या आहेत.
+\n\n
+चौखांबीच्या दरवाजास चांदीचे नक्षीदार पत्रे लावले आहेत. पूर्वेकडे शेजघर असून एका लहान अंतराळानंतर दोन मीटर चौरस गाभारा लागतो. रुक्मिणी मंदिरासारखी इतर लहान मंदिरे परिसरात आहेत. विठ्ठलाचेच परमभक्त पुंडलीक याची समाधी महाद्वार घाटावर आहे.
+\n\n
+देवळास समांतर पूर्वेकडे जाणाऱ्या गल्ल्या घाटाकडे जातात. सर्व बाराही घाटांचा वापर वारकरी करतात. त्यातील उद्धव, चंद्रभागा, दत्ता व अमळनेरकर घाटांचा वापर प्रामुख्याने होतो. महाद्वार घाट हा उत्सवासाठी महत्त्वाचा आहे. नदीला पाणी कमी असताना नदीच्या पात्राजवळची जागा वारकरी उतरण्यास तसेच भजनकीर्तनास वापरतात. मठ, देवळे, आखाडे, धर्मशाळा, फड वगैरेमधून अनेक भक्तांची व वारकऱ्यांची सोय होते. सर्व पंढरपुरातच भाविकांची वर्दळ असते."
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="परिसर : "
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:layout_margin="1dp"
+                android:text="नदीकाठी चौदा घाट बांधलेले आहेत. मात्र ते सलग नाहीत. पुंडलिकाच्या देवळाच्या दक्षिणेस सुमारे १.२ किमी. वर विष्णूपद-वेणुनाद हे स्थान आहे. गावाच्या दक्षिणेस सुमारे १.६ किमी. वर गोपाळपूर येथे गोपालकृष्णाचे देऊळ आहे. यांशिवाय पंचमुखी मारुती, भुलेश्वर, पद्मावती (देऊळ आणि तळे), व्यास, अंबाबाई, लखूबाई, यमाई, जोतिबा, नगरेश्वर, सरकारवाडा महादेव, त्र्यंबकेश्वर, ताकपिठ्या विठोबा, कोटेश्वर, गोंदवलेकर राम, खाजगीवाले वाड्यातील विठ्ठल, रुक्मिणी व राधा यांच्या सोन्याच्या मूर्ती, नामदेवमंदिर, शाकंभरी (बनशंकरी), मल्लिकार्जुन, तांबडा मारुती, मुरलीधर, गारेचा महादेव, चंद्रभागा, दत्त, वटेश्वर महादेव, बेरीचा महादेव, काळा मारुती, चोफाला (विष्णूपंचायतन), पारावरील दत्त, बाभळ्याचा महादेव, अमृतेश्वर ही व इतरही काही मंदिरे पंढरपुरात आहेत. अलीकडे काही नवीन मंदिरेही झाली असून येथील कैकाडी महाराजांचा मठ प्रेक्षणीय आहे. १९४६ मध्ये साने गुरुजींनी महात्मा गांधींचा विरोध डावलून, हरिजनांना पंढरपूरच्या विठ्ठलमंदिरात प्रवेश मिळावा म्हणून उपवास केला, तेव्हा हरिजनांना मंदिर खुले झाले. चंद्रभागेच्या वाळवंटात तुकाराम महाराजांचे वंशज भाऊसाहेब देहूकर यांची व गोविंदबुवा अंमळनेरकर, गोविंदबुवा चोपडेकर, भानुदास महाराज वेळापूरकर यांच्या समाध्या आहेत. यात्रेच्या वेळी हजारो यात्रेकरू वाळवंटातच मुक्काम ठोकतात.
+\n\n
+त्रैलोक्यनाम भवन, तनपुरे मंडप वगैरे इतर महत्त्वाच्या वास्तू पंढरपुरात आहेत.\n\n
+नदीवरील घाट :
+\n\t\t\t\t१ अमळनेर
+\n\t\t\t\t२ अहिल्याबाई
+\n\t\t\t\t३ उद्धव
+\n\t\t\t\t४ कबीर
+\n\t\t\t\t५ कासार
+\n\t\t\t\t६ कुंभार
+\n\t\t\t\t७ खाका
+\n\t\t\t\t८ खिस्ते
+\n\t\t\t\t९ चंद्रभागा
+\n\t\t\t\t१० दत्त
+\n\t\t\t\t११ दिवटे
+\n\t\t\t\t१२ मढे
+\n\t\t\t\t१३ महाद्वार आणि
+\n\t\t\t\t१४ लखुबाई
+
+"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:layout_margin="15dp"
+                android:text="विठ्ठल रुक्मिणी : "
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/vghguj"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="70dp"
+                    app:srcCompat="@drawable/vittalrukmini"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

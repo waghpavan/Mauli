@@ -1,0 +1,636 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:src="@drawable/road" />
+
+            <!--        11-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="११ / ६ /२०२३           रविवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  आळंदी\n विसावा :  ---\n मुक्काम:  गांधीवाडा देवस्थान आळंदी"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१२ / ६ /२०२३           सोमवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  आळंदी\n विसावा :  फुलेनगर\n मुक्काम:  पालखी विठोबा मंदिर भवानी पेठ पुणे"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१३ / ६ /२०२३           मंगळवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  पुणे शहर\n विसावा :  पुणे शहर\n मुक्काम:  पुणे शहर"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१४ / ६ /२०२३           बुधवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  पुणे शहर\n विसावा :  हडपसर\n मुक्काम:  सासवड"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१५ / ६ /२०२३           गुरुवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  सासवड\n विसावा :  सासवड\n मुक्काम:  सासवड"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१६/०६/२०२३
+          शुक्रवार
+"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  सासवड\n विसावा :  यमाई शिवरी\n मुक्काम:  जेजुरी
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१७/०६/२०२३
+          शनिवार
+
+"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  जेजुरी\n विसावा :  वाल्हे
+\n मुक्काम:  वाल्हे
+
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१८/०६/२०२३
+
+          रविवार
+
+
+"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  वाल्हे
+\n विसावा :  निरा
+
+\n मुक्काम:  लोणंद
+
+
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="१९/०६/२०२३
+
+
+          सोमवार
+
+
+
+"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  लोणंद
+
+\n विसावा :  लोणंद
+
+
+\n मुक्काम:  लोणंद
+
+
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२०/०६/२०२३              मंगळवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  लोणंद\n विसावा :  लोणंद\n मुक्काम:  तरडगाव"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२१/०६/२०२३               बुधवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  तरडगाव
+\n विसावा :  निंभोरे ओढा
+\n मुक्काम:  विमानतळ फलटण
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२२/०६/२०२३               गुरुवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  विमानतळ फलटण
+
+\n विसावा :  विमानतळ फलटण
+\n मुक्काम:  विमानतळ फलटण
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२२/०६/२०२३               शुक्रवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  फलटण
+\n विसावा :  ---
+\n मुक्काम:  बरड"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२३/०६/२०२३               शुक्रवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  बरड
+\n विसावा :  ---
+\n मुक्काम:  नातेपुते
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२४/०६/२०२३               शनिवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  नातेपुते
+\n विसावा :   ---
+\n मुक्काम:  माळशिरस
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२५/०६/२०२३               रविवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  माळशिरस
+\n विसावा :   ---
+\n मुक्काम:  वेळापूर
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२६/०६/२०२३               सोमवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  वेळापूर
+\n विसावा :   ---
+\n मुक्काम:  भंडीशेगांव
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२७/०६/२०२३               मंगळवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  भंडीशेगांव
+\n विसावा :   ---
+\n मुक्काम:  वाखरी
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२८/०६/२०२३               बुधवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  वाखरी
+\n विसावा :   ---
+\n मुक्काम:  पंढरपुर
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="5dp"
+                android:background="#F4EFEF"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:background="#FFC107"
+                    android:textSize="22dp"
+                    android:text="२९/०६/२०२३               गुरुवार"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"
+                    android:text=" प्रस्थान :  पंढरपुर मुक्कामी
+\n विसावा :   ---
+\n मुक्काम:  आषाढी सोहळा
+"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--        12-->
+
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+    <!--    android:text="१2 / ६ /२०२३                       सोमवार"-->

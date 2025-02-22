@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Hospital"
+    >
+
+    <!--    1   -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:paddingLeft="100dp"
+        android:textAlignment="viewStart"
+        android:layout_marginLeft="0dp"
+        android:text="पंढरपूर रुग्णालय"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="5dp"
+                    android:text="1) पंढरपूर नगरपालिका आरोग्य अस्पताला "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="ExtraText">
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: चौफला, पंढरपूर, महाराष्ट्र ४१३३०४"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="call"
+
+                        android:textSize="15dp"
+                        android:textColor="#3F51B5"
+                        android:layout_marginLeft="20dp"
+                        android:backgroundTint="#FFFFFF"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 2186223147"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+
+            <!--    2    -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="2) श्री विठ्ठल रुग्णालय  "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: मुंबई - पंढरपूर मार्ग,KBP कॉलेज उपस्थित, जून पाट, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 2186224345"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+            <!--    3    -->
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="5dp"
+                    android:text="3) एपेक्स रुग्णालय, पंढरपूर"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="ExtraText">
+
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: बोहारी पेट्रोल पंपाच्या जवळ, महावीर नगर, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 2186224108 "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+            <!--    4    -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="4) पावले रुग्णालय"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: नवी पेठ, भोसले नगर, पंढरपूर"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="285dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    5   -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="5dp"
+                    android:text="5) संजीवनी रुग्णालय, पंढरपूर."
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="ExtraText">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: जून पाट, पंढरपूर, महाराष्ट्र ४१३३०४"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="call"
+
+                        android:textSize="15dp"
+                        android:textColor="#3F51B5"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="#FFFFFF"
+                        />
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क :"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+
+            <!--    6    -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="6) उपमहानगरपालिका रुग्णालय, पंढरपूर. "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: जून पाट, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 2186223181"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    7   -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="5dp"
+                    android:text="7) रुक्मिणी बहुविशेषता रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="ExtraText">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: काळा मारुती, चौफला, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क :7741078175"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="__________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+
+            <!--    8   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="8) राऊत रुग्णालय "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: प्रभु रेसिडेंसीच्या जवळ, सावरकर चौक, जुनी पेठ, भोसले नगर, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    9   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="9) भोसले रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान: गोकुल नगर, ईसबावी, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 2186224330"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    10   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="10) बागडे ईएनटी रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:
+भक्ति मार्ग, सांगोला रोड, रक्तबंकाच्या जवळ, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 9890922608"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    11   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="11) पंढरपूर सुपरस्पष्टीकरण आणि गॅलेक्सी बहुविशेषता रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:दत्त नगर, ईसबावी, अंबे, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    12   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="12) मोहिते रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:भोसले चौक, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 9561153574"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    13   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="13) रेल्वे रुग्णालय, पंढरपूर"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:पुंडलिक नगर, पंढरपूर, महाराष्ट्र ४१३३०४.."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    14   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="14) सिटी दुर्घटना रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:गोकुल नगर, ईसबावी, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : "
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    15   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="15) वरद विनायक बहुविशेषता रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:कराड रोड, स्थानक मस्जिदाच्या जवळ, पंढरपूर, महाराष्ट्र"
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 8446636399"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    16   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="16) श्री मेडिसिटी रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:भोसले चौक, कर्नाळ, भोसले नगर, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 8010061394"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+            <!--    17   -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FAF3F3"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="2dp"
+                    android:text="17) अग्रज रुग्णालय"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textAlignment="gravity"
+                        android:layout_margin="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="स्थान:जुना कराड नाका, दत्त नगर, ईसबावी, पंढरपूर, महाराष्ट्र ४१३३०४."
+                        tools:ignore="DuplicateIds,MissingConstraints" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="call"
+                    android:textSize="15dp"
+                    android:textColor="#3F51B5"
+                    android:layout_marginLeft="290dp"
+                    android:backgroundTint="#FFFFFF"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="gravity"
+                    android:layout_margin="4dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="संपर्क : 9922295563"
+                    tools:ignore="DuplicateIds,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:textColor="#B110B1"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:text="________________________________________________________________________________________________"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
